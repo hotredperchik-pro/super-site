@@ -1,0 +1,151 @@
+body{
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    font-size: 30px;
+    background-image: url(tile.png);
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+#header h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+}
+
+.about h2{
+    color: yellow;
+}
+
+.about img{
+    width: 500px;
+}
+
+.about p{
+    color: #fff;
+}
+
+.important{
+    color:#b82121;
+}
+
+a{
+    color:orange;
+}
+
+.table_1{
+    width: 60%; 
+    margin: 0 auto; 
+}
+
+.table_1 td{
+    border: 1px solid white;
+    text-align: center;
+}
+
+.table_2{
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0; 
+}
+
+.table_2 td{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 0;
+}
+
+.aqua{
+    background-color: aqua;
+}
+
+.beige{
+    background-color: beige;
+}
+
+.forms{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 0.5em;
+    color: black;
+    margin-top: 20px;
+    border: 2px solid rgb(219, 196, 166);
+    background-color: antiquewhite;
+    border-radius: 20px;
+    height: 1100px;
+}
+
+.forms h2{
+    font-size: 2em;
+}
+
+.form_table{
+    margin: 0 auto;
+}
+
+.form_table td{
+    text-align: left;
+}
+.form_table td:first-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.form_2{
+    margin: 0 auto;
+    width: 30%;
+    text-align: left;
+}
+
+.form_2 div{
+    padding: 5px;
+}
+
+.text{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 0.5em;
+    color: black;
+    margin-top: 20px;
+    border: 2px solid rgb(89, 158, 188);
+    background-color: white;
+    border-radius: 20px;
+    height: 500px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.math_table{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.math_table, .math_table td{
+    border: 2px solid black;
+}
+
+.footer{
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+

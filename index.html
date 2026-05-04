@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="necoarc.webp">
+    <base target="_blank">
+    <title>Мой сайт</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <h1>Иван Швидков</h1>
+        </div>
+        <div class="about">
+            <h2>Любящий сын, студент & парень</h2>
+            <img src="my_photo.jpg" alt="Моя фотка" width="300">
+            <p>Я Швидков Иван, студент группы 3312. Моя электронная почта shvidkov05@mail.ru. Также вы можете
+                связаться со мной в
+                <a href="https://vk.com/id819481642">ВК</a>. А еще можете посетить сайт моего
+                <a>href="https://nvsu.ru">Вуза</a>.
+                Моя цель — развиваться в направлении <span class="important">полного цикла разработки (Full
+                    Stack)</span>. Я люблю играть в компьютер, немного увлекаюсь музыкой и
+                умею вышивать крестиком, а также могу задержать дыхание на 40 секунд.
+            </p>
+        </div>
+        <div class="tables">
+            <table class="table_1">
+                <caption>Таблица 1</caption>
+                <tr>
+                    <td colspan="5">Item</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Item</td>
+                    <td>Item</td>
+                    <td rowspan="3">Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Item</td>
+                    <td rowspan="3">Item</td>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+            </table>
+            <table class="table_2">
+                <caption>Таблица 2</caption>
+                <tr>
+                    <td class="aqua" colspan="8"></td>
+                </tr>
+                <tr>
+                    <td class="beige" rowspan="6"></td>
+                    <td class="aqua" colspan="6"></td>
+                    <td class="beige" rowspan="6"></td>
+                </tr>
+                <tr>
+                    <td class="beige" rowspan="4"></td>
+                    <td class="aqua" colspan="4"></td>
+                    <td class="beige" rowspan="4"></td>
+                </tr>
+                <tr>
+                    <td class="beige" rowspan="2"></td>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: blue;"></td>
+                    <td class="beige" rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: green;"></td>
+                    <td style="background-color: yellow;"></td>
+                </tr>
+                <tr>
+                    <td class="aqua" colspan="4"></td>
+                </tr>
+                <tr>
+                    <td class="aqua" colspan="6"></td>
+                </tr>
+                <tr>
+                    <td class="aqua" colspan="8"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="forms">
+            <h2>Форма 1</h2>
+            <form action="№" method="post">
+                <table class="form_table">
+                    <tr>
+                        <td><span>Фамилия</span></td>
+                        <td><input type="text" name="user_surname"></td>
+                    </tr>
+                    <tr>
+                        <td><span>Инициалы</span></td>
+                        <td><input type="text" name="user_initials"></td>
+                    </tr>
+                    <tr>
+                        <td><span>Пароль</span></td>
+                        <td><input type="password" name="userpass"></td>
+                    </tr>
+                    <tr>
+                        <td><span>Адрес</span></td>
+                        <td><input type="text" name="adress" autocomplete="street-address"></td>
+                    </tr>
+                    <tr>
+                        <td><span>Количество</span></td>
+                        <td><input type="number" name="amount"></td>
+                    </tr>
+                    <tr>
+                        <td><span>Тип</span></td>
+                        <td>
+                            <select name="type" id="#">
+                                <option value="1">Куриные</option>
+                                <option value="2">Куриные</option>
+                                <option value="3">Куриные</option>
+                            </select>
+                            <select name="type" id="#">
+                                <option value="1">Отборные</option>
+                                <option value="2">Отборные</option>
+                                <option value="3">Отборные</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Доставка</span>
+                        </td>
+                        <td>
+                            <input type="radio" name="order" id="#" value="mail">Почтой
+                            <input type="radio" name="order" id="#" value="web">Электронно
+                            <input type="radio" name="order" id="#" value="del">Курьером
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Требуется накладная</span>
+                        </td>
+                        <td><input type="checkbox" name="order_list"></td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><span>Дополнительная информация</span></td>
+                        <td><textarea name="info" id="#" cols="40" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">Отправить</button>
+                        </td>
+                        <td>
+                            <button type="reset">Сбросить</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <h2>Форма 2</h2>
+            <div class="form_2">
+                <form action="#" method="post">
+                    <div>Логин:</div>
+                    <div><input type="text" name="user_surname"></div>
+                    <div>Пароль:</div>
+                    <div><input type="password" name="user_pass"></div>
+                    <div>URL-адрес сайта:</div>
+                    <div><input type="text" placeholder="http://" name=""></div>
+                    <div>Название сайта:</div>
+                    <div><input type="text" name="site_name"></div>
+                    <div>Описание сайта:</div>
+                    <div><textarea rows="5" cols="30" name="site_description" id=""></textarea></div>
+                    <div>Тема сайта:</div>
+                    <div><select name="site_theme" id="#">
+                            <option value="0" selected>Тема не выбрана</option>
+                            <option value="1">Новостной</option>
+                            <option value="2">О погоде</option>
+                            <option value="3">Словарь</option>
+                        </select></div>
+                    <div>Баннер 88x31:</div>
+                    <div><input type="file"></div>
+                    <div><button type="submit">Отправить</button>
+                        <button type="reset">Сбросить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="text">
+            <h2 style="color: blue;text-align: center;">
+                Таблицы в HTML</h2>
+            <p class="first_p" style="background-color: aqua;">Одним из наиболее мощных и широко применяемых в <b>HTML</b> средств являются
+                <i>таблицы</i>.
+            </p>
+            <p class="second_p" style="text-align: right;"><span style="text-decoration: underline; background-color: yellow;">Понятие табличного
+                    представления данных не нуждается в дополнительном пояснении.</span>
+                <span style="background-color: #ccc;">В HTML таблицы используются не только традиционно, как метод
+                    представления данных,
+                    но и как средство форматирования Web-страниц.</span>
+            </p>
+            <h3 style="color: purple;">Создание простейших HTML-таблиц</h3>
+            <p><span style="background-color: rgb(223, 111, 223); font-style: italic; font-weight: 700;">Описание</span>
+                <span style="text-decoration: underline;">таблиц нужно</span> располагать внутри раздела документа
+                &lt;BODY&gt;
+            </p>
+            <p style="text-align: center;">Каждая <span style="color: blue; text-decoration: underline;">таблица</span>
+                должна <span style="font-size: 20px;">начинаться</span> тегом &lt;TABLE&gt; и завершаться тегом
+                &lt;/TABLE&gt;.></p>
+            <p style="text-align: center;"><span style="font-style: italic; color: blue;">Каждая</span> строка начинается тегом &lt;TR&gt; и завершается
+            тегом &lt;/TR&gt;. <span style="color: red; font-style: italic;"></span>Отдельная ячейка в строке обрамляется парой тегов 
+            &lt;TD&gt; и &lt;/TD&gt; или &lt;TH&gt; и &lt;/TH&gt;</p>
+            <div style="text-align: right;"><b>Таблица 1</b></div>
+            <div style="color: blue; font-style: italic; text-align: center; font-weight: 700;">Математические выражения</div>
+            <table class="math_table">
+                <tr>
+                    <td style="font-style: italic;">Поле 1</td>
+                    <th style="background-color: black; color: white;">Поле 2</th>
+                    <td style="color: blue; background-color: aqua; text-align: right;">Поле 3</td>
+                    <td style="background-color: pink; text-decoration: underline; font-style: oblique;">Поле 4</td>
+                    <td style="background-color: yellow; text-align: center;">Поле 5</td>
+                </tr>
+                <tr>
+                    <td style="color: blue;">(a+b)<sup>2</sup></td>
+                    <td style="text-align: center;">a<sup>2</sup> - b<sup>2</sup></td>
+                    <td style="text-align: right;color: blue;">(a-b)<sup>3</sup></td>
+                    <td style="font-weight: 700;">A<sub>1</sub>+A<sub>2</sub>+...A<sub>i</sub></td>
+                    <td style="color: blue;">y = x <sup>2</sup></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <div>&copy; Shvidkov</div>
+    </div>
+</body>
+
+</html>
